@@ -1,0 +1,22 @@
+.multiple-image .image-list{
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 9;
+}
+.multiple-image .image-list > img{
+  flex: 3;
+  width: 33%;
+}
+.singlepic-image {
+  display: flex;
+  margin: 15px 0;
+}
+.singlepic-image h3{
+  flex: 6;
+}
+.singlepic-image .image-list{
+  flex: 3;
+}
+.big-image img{
+  width: 100%;
+}
